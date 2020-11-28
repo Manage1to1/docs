@@ -14,22 +14,29 @@ The Device Profile is accessible via `Devices >> View Devices`, the Global Searc
 
 ## Adding a New Device
 
-![Adding a User](../_media/screenshots/add-a-user.png ':size=50%')
+![Adding a Device](../_media/screenshots/add-adevice.png ':size=50%')
 
-Adding a new user can be done via a few methods. This method is the preferred method when adding a single User or a small handful of users. For larger quantities of users, we
- recommend using an import.
+Adding a new device can be done via a few methods. This method is the preferred method when adding a single Device or a small handful of Devices. For larger quantities of devices, we recommend using an import.
  
- To get started, navigate to `Users >> Add a User` on the left sidebar menu. You will then be directed to a page that allows you to fill out the information necessary to add the
-  user to Manage1to1.
+ To get started, navigate to `Devices >> Add a Device` on the left sidebar menu. You will then be directed to a page that allows you to fill out the information necessary to add the user to Manage1to1.
   
 ?> Fields marked with an asterisk (*) in Manage1to1 are required.
 
-- **User Type** - Is the user you are adding a student or staff member? Choose the appropriate option here.
-- **Local ID Number** - This is the internal ID number used to reference this user. (It should match your SIS records).
-- **State ID Number** - (Optional) This is the number used by your governing body to manage the student.
-- **Username** - (Optional) Enter the username you wish to assign for this user. If left blank, a username will be generated in the format specified in `Settings >> General
- Settings`.
-- **Password** - (Optional) Enter the password you wish to assign for this user. If left blank, a password will be generated.
-- **Email** - (Optional) Enter the email address you wish to assign for this user. If left blank, the email will be generated in the form of username@domain.com
-- **Apple ID Username/Password/Unlock Code** - (Optional) These fields only show up when enabled in the Settings page.
+### Add Device Column
+
+**Status** - Does the device you are adding need a special status? Choose the appropriate option here.
+**Date Purchased** - This is important to help keep track of device rotations, you can use the purchase date or "in-service" date here.
+**Model Number** - This is the model number of the device. You can create custom models here.
+**Operating System** - This is the installed operating system of the device to be added. Operating Systems can be customized here.
+**Serial #** - The unique manufacturer identifying number of the device.
+**Asset Tag** - This is a unique identifier, which can be the same as the serial number, or could be a barcode which can be used throughout Manage1to1.
+**Loaner** - (Optional) Check this box to mark this device as a loaner device.
+**Loaner Number** - (Optional) Required when Loaner is Clicked - A numerical identifier for this loaner device.
+- **Custom Fields** - (Optional) Any custom fields that you have created will be displayed at the bottom of the left column, in your configured order.
+
+### Building Assignment Column
+
+This column allows you to assign this device to a specific building. This is optional and by default typically you would leave this set to "All Buildings".
+
+?> Setting a device to a specific building will prevent Manage1to1 administrators that do not have the building permission from seeing the device in all areas of Manage1to1.
  
